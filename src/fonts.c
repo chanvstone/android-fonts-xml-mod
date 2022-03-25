@@ -2,7 +2,6 @@
 // Created by sio2 on 3/23/22.
 //
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 
 struct FontConfigRoboto {
