@@ -2,8 +2,8 @@
 // Created by sio2 on 3/23/22.
 //
 
-#include "mod.h"
-#include "fonts.h"
+#include "../include/mod.h"
+#include "../include/fonts.h"
 #include <stdio.h>
 #include <string.h>
 

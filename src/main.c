@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "mod.h"
+#include "../include/mod.h"
 
 int main(int argv, char **args) {
 //  if (argv != 2) {
