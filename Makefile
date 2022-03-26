@@ -6,18 +6,20 @@ vpath %.so ./lib
 CFLAGS=-std=c17
 
 .PHONY:clean
+%.a:
+	$(AR) -rcs ./lib/$@ $^
+
 
 all:libmod.a libfonts.a main
 
 main:mod.o fonts.o
 
 libmod.a:mod.o fonts.o
-	$(AR) -rcs ./lib/$@ $^
 
 libfonts.a:fonts.o
-	$(AR) -rcs ./lib/$@ $^
 
 mod.o:mod.h fonts.o
+
 fonts.o:fonts.h
 
 clean:
